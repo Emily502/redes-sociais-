@@ -1,15 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
 :root{
---bg-color: #030637;
---primary-color:#FFF7FC;
---secondary-color:#910A67;
---font: "Arima", system-ui;
+    --bg-color: #030637;
+    --primary-color:#FFF7FC;
+    --secondary-color:#910A67;
+    --font: "Arima", system-ui;
 }
 body{
-background-color: var(--bg-color);
-font-family: var(--font);
-color: var(--primary-color);
-height:100vh;
-margin: 0;
+    background-color: var(--bg-color);
+    font-family: var(--font);
+    color: var(--primary-color);
+    height:100vh;
+    margin: 0;
 
+}
+header{
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    color: var(--bg-color);
+    font-weight: 700;
 }
