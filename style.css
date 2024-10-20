@@ -5,3 +5,9 @@
 --secondary-color:#910A67;
 --font: "Arima", system-ui;
 }
+body{
+background-color: var(--bg-color);
+font-family: var(--font);
+height:100vh;
+margin: 0;
+}
